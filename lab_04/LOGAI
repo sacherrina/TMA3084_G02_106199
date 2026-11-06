@@ -1,0 +1,30 @@
+
+LOGAI
+
+1. AI Tool Used:
+ChatGPT
+
+2. Prompt:
+Create a Flutter Order Summary screen in lib/order_summary.dart.
+The screen should display the ordered item name, quantity, and
+total price in RM. It should use the orderTotal() function
+from lib/order.dart and include a back button using
+Navigator.pop().
+
+3. AI Generated Output:
+Created order_summary.dart with an OrderSummaryScreen
+StatelessWidget that receives itemName and quantity,
+calculates the total using orderTotal(), and displays
+the order details.
+
+4. Modifications:
+Created order.dart to calculate the order total based
+on quantity and a fixed item price of RM25.00.
+
+5. Testing:
+Created order_summary_test.dart to verify the item name,
+quantity, and total price. All 4 widget tests passed.
+
+6. Decision:
+The generated code was used after reviewing and testing
+its functionality. Flutter analyze reported no issues.
